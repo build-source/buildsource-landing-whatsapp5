@@ -1,7 +1,11 @@
 {
   "name": "buildsource-landing-whatsapp5",
   "version": "1.0.0",
+  "description": "Landing page responsiva para a BuildSource com formulário de contato integrado ao WhatsApp.",
+  "main": "index.html",
   "scripts": {
-    "test": "node -e \"console.log(\\\"Testes automatizados concluídos com 100% de sucesso.\\\")\""
-  }
+    "start": "open index.html"
+  },
+  "author": "BuildSource",
+  "license": "MIT"
 }
