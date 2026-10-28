@@ -1,15 +1,22 @@
-# BuildSource Landing Page
+# Landing Page WhatsApp
 
-Esta é uma landing page simples e responsiva para a BuildSource, com um formulário de contato integrado ao WhatsApp.
+Esta é uma landing page simples que permite que os usuários entrem em contato via WhatsApp.
 
 ## Estrutura do Projeto
 
-- `index.html`: Estrutura da página.
-- `style.css`: Estilos da página.
-- `script.js`: Lógica de validação do formulário e redirecionamento para o WhatsApp.
+- `index.html`: A estrutura HTML da landing page.
+- `style.css`: Estilos para a página, incluindo suporte para dark mode.
+- `script.js`: Lógica para o formulário e redirecionamento para o WhatsApp.
 - `package.json`: Configurações do projeto.
 
 ## Como Usar
 
-1. Clone o repositório:
-   
+1. Clone o repositório.
+2. Abra o arquivo `index.html` em um navegador.
+3. Preencha o formulário e clique em "Enviar" para ser redirecionado ao WhatsApp.
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JavaScript
