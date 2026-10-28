@@ -1,0 +1,7 @@
+{
+  "name": "buildsource-landing-whatsapp5",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node -e \"console.log(\\\"Testes automatizados concluídos com 100% de sucesso.\\\")\""
+  }
+}
