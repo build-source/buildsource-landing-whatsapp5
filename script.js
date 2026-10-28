@@ -7,7 +7,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
     const whatsappNumber = '5548988773779';
     const whatsappMessage = `Olá, meu nome é ${name}. Meu e-mail é ${email}. Mensagem: ${message}`;
-    const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
-    window.open(whatsappLink, '_blank');
+    window.open(whatsappUrl, '_blank');
 });
