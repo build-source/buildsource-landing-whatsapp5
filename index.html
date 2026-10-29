@@ -3,24 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page WhatsApp</title>
+    <title>Landing Page - BuildSource</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Entre em Contato pelo WhatsApp</h1>
+        <h1>Bem-vindo à BuildSource</h1>
+        <p>Transforme suas ideias em soluções digitais.</p>
     </header>
     <main>
-        <form id="contactForm">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="message">Mensagem:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+        <section id="contact">
+            <h2>Entre em Contato</h2>
+            <form id="contactForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2023 Sua Empresa</p>
+        <p>&copy; 2023 BuildSource. Todos os direitos reservados.</p>
     </footer>
     <script src="script.js"></script>
 </body>

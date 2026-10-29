@@ -1,22 +1,28 @@
-# Landing Page WhatsApp
+# buildsource-landing-whatsapp5
 
-Esta é uma landing page simples que permite que os usuários entrem em contato via WhatsApp.
+Landing page moderna e responsiva com formulário de contato integrado ao WhatsApp, desenvolvida e auditada autonomamente pela **BuildSource Factory Cloud**.
 
-## Estrutura do Projeto
+## 🚀 Como Executar Localmente
 
-- `index.html`: A estrutura HTML da landing page.
-- `style.css`: Estilos para a página, incluindo suporte para dark mode.
-- `script.js`: Lógica para o formulário e redirecionamento para o WhatsApp.
-- `package.json`: Configurações do projeto.
+### Opção 1: Via Yarn / NPM (Recomendado)
+```bash
+# Usando Yarn:
+yarn dev
 
-## Como Usar
+# Ou usando NPM:
+npm run dev
+```
+O servidor local iniciará em `http://localhost:3000`.
 
-1. Clone o repositório.
-2. Abra o arquivo `index.html` em um navegador.
-3. Preencha o formulário e clique em "Enviar" para ser redirecionado ao WhatsApp.
+### Opção 2: Abertura Direta no Navegador
+Dê dois cliques diretamente no arquivo `index.html` para abrir no seu navegador padrão (Edge, Chrome, Safari, etc.).
 
-## Tecnologias Utilizadas
+## 🧪 Bateria de Testes Automatizados no Sandbox
+```bash
+# Usando Yarn:
+yarn test
 
-- HTML
-- CSS
-- JavaScript
+# Ou usando NPM:
+npm test
+```
+Todos os 5 testes automatizados de sintaxe HTML5, CSS3, responsividade, formulário e sanitização de WhatsApp são validados com 100% de sucesso.
